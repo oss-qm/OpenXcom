@@ -1,0 +1,19 @@
+Source: openxcom
+Section: games
+Priority: extra
+Maintainer: Enrico Weigelt <info@metux.net>
+Uploaders: Enrico Weigelt <info@metux.net>
+Build-Depends: debhelper (>= 7), autotools-dev, xmlto, libsdl-dev,
+               libsdl-mixer1.2-dev, libsdl-gfx1.2-dev, libsdl-image1.2-dev,
+               libyaml-cpp-dev, autoconf, pkg-config
+Standards-Version: 3.9.6
+Homepage: http://www.openxcom.org/
+Vcs-Browser: https://github.com/SupSuper/OpenXcom
+Vcs-Git: https://github.com/SupSuper/OpenXcom.git
+
+Package: openxcom
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Clone of the famous X-COM DOS Game
+ OpenXCom is a strategy game where the player has to defend earth
+ from an alien invasion.
